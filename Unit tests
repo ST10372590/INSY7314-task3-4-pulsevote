@@ -1,0 +1,7 @@
+Linting is the process of automatically checking code for style issues, errors, or bad practices before it runs. 
+Unit tests are small, focused tests that verify individual pieces of code (like functions) work as intended. 
+Both are critical because they catch bugs early, enforce consistency, and build confidence in code quality. 
+They can be automated through tools and CI/CD pipelines so checks run on every commit. 
+In a Node.js API, linting is often done with tools like **ESLint**, while unit tests can be written with frameworks like **Jest** or **Mocha**. 
+Flaky tests—those that sometimes pass and sometimes fail without code changes—can erode trust in the test suite and slow down development by causing confusion and wasted debugging time. 
+In short, linting and testing bring discipline, reliability, and automation that help teams ship better software faster.
