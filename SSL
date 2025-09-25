@@ -1,0 +1,6 @@
+SSL (Secure Sockets Layer) and its successor TLS (Transport Layer Security) are protocols that encrypt data transmitted between a client and a server, ensuring confidentiality, integrity, and authentication. 
+HTTPS is HTTP over SSL/TLS, meaning all communications are encrypted, while HTTP sends data in plain text. 
+SSL is necessary for web applications to protect sensitive information like passwords, personal details, and payment data from being intercepted by attackers. 
+Without SSL, data can be stolen, modified, or impersonated by malicious actors, leading to account breaches, identity theft, or financial loss. 
+A real-world example is the 2019 Capital One breach, where misconfigured cloud resources and weak security controls exposed sensitive customer data—though not solely SSL-related, it highlights the risks of inadequate encryption and security practices. 
+In short, SSL/TLS is a fundamental layer of security for maintaining trust and protecting users in web applications.
