@@ -1,0 +1,6 @@
+JWT (JSON Web Token) is a compact, URL-safe token format used to securely transmit information between parties as a JSON object. 
+It is necessary in web applications to handle authentication and authorization without storing session data on the server, enabling scalable, stateless systems. 
+JWT works by encoding a payload (user data) and signing it with a secret or private key, so the server can verify its authenticity and integrity. 
+If a web application does not use SSL while transmitting JWTs, tokens can be intercepted by attackers, allowing unauthorized access or impersonation. 
+A real-world example is the 2020 Auth0 misconfiguration, where improper JWT validation could allow attackers to bypass authentication in certain setups. 
+In short, JWT provides a secure, stateless method for managing user sessions, but it must be combined with SSL and proper validation to prevent token theft or misuse.
