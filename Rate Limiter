@@ -1,0 +1,6 @@
+Rate limiting is the practice of restricting how many requests a client can make within a given time frame. 
+It’s especially important for authentication endpoints because it helps prevent brute-force attacks and credential stuffing. 
+Per-IP limits restrict requests based on the client’s IP address, while per-identifier limits (like email) restrict attempts tied to a specific account, making them more precise but also more complex. 
+Reverse proxies or load balancers can obscure the real client IP, so proper configuration (like using X-Forwarded-For) is critical for accurate enforcement. 
+Safe defaults (e.g., modest request caps) are useful in development, but production-ready settings must balance security and usability, ensuring legitimate users aren’t unfairly blocked while attackers are slowed down. 
+In short, thoughtful rate limiting strengthens security while maintaining a good user experience.
