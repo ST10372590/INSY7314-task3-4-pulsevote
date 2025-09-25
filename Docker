@@ -1,0 +1,6 @@
+Docker is a tool that packages applications and their dependencies into lightweight, portable containers that run consistently across environments. 
+Docker Compose is a companion tool that lets you define and manage multi-container applications (e.g., API + database) using a simple YAML file. 
+They are essential skills for developers because they solve the “works on my machine” problem, improve deployment consistency, and make collaboration easier. 
+Building and running containers can be automated using CI/CD pipelines or orchestration tools like Kubernetes. 
+To dockerize a Node.js API, you typically create a `Dockerfile` that installs dependencies, copies the code, and defines a start command, then build and run it using Docker. 
+In short, Docker streamlines development, testing, and deployment, making applications more reliable and scalable across different environments.
